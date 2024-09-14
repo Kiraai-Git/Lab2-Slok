@@ -29,7 +29,6 @@ public class History {
         int count = 0;
         Message temp = topMessage;
 
-        // Contar la cantidad de mensajes existentes en el historial
         while (temp != null && count < k) {
             count++;
             temp = temp.next;
